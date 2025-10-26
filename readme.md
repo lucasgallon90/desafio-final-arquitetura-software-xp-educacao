@@ -77,11 +77,13 @@ npm run start:prod
 npm run start:dev
 
 ## 9. Scripts úteis
-npm run build	Compila o NestJS para a pasta dist/
-npm run format	Formata o código com Prettier
-npm run lint	Rodar ESLint e corrigir problemas automaticamente
-npm run migration:generate	Gera uma migration automática
-npm run migration:create	Cria uma migration vazia
-npm run migration:run	Aplica as migrations no banco
-npm run start:dev	Roda a aplicação em modo desenvolvimento
-npm run start:prod	Roda a aplicação em produção
+
+```bash
+npm run build             # Compila o NestJS para a pasta dist/
+npm run format            # Formata o código com Prettier
+npm run lint              # Rodar ESLint e corrigir problemas automaticamente
+npm run migration:generate # Gera uma migration automática
+npm run migration:create   # Cria uma migration vazia
+npm run migration:run      # Aplica as migrations no banco
+npm run start:dev          # Roda a aplicação em modo desenvolvimento
+npm run start:prod         # Roda a aplicação em produção
